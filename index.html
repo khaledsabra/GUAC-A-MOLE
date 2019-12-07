@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>The Big Picture - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/guac.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div style="height:754px" class="row align-items-center text-center">
+      <div class="jumbotron bg-white mx-auto">
+        <h1 class="display-4 text-center">Guac-A-Mole!</h1>
+        <p class="lead">Make the fastest and most delicious Guacamole!</p>
+        <hr class="my-4">
+        <p class="lead">
+          <a class="btn btn-outline-success btn-lg" id="start" href="#" role="button">START</a>
+        </p>
+      </div>
+
+      <div class="jumbotron pt-4 mx-auto bg-white" id="game" style="width:700px;display:none">
+        <div class="clearfix pb-4">
+          <div class="float-left font-weight-bold">Score: <span id="score">0</span></div>
+          <div class="float-right font-weight-bold">Time remaining: <span id="time">0:25</span></div>
+        </div>
+        <div class="row">
+          <div class="col"><div class="btn btn-lg btn-dark p-0 rounded-circle"><img class="avocado" src="img/avocado.png" width="120" alt=""></div></div>
+          <div class="col"><div class="btn btn-lg btn-dark p-0 rounded-circle"><img class="avocado" src="img/avocado.png" width="120" alt=""></div></div>
+          <div class="col"><div class="btn btn-lg btn-dark p-0 rounded-circle"><img class="avocado" src="img/avocado.png" width="120" alt=""></div></div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-2"></div>
+          <div class="col"><div class="btn btn-lg btn-dark p-0 rounded-circle"><img class="avocado" src="img/avocado.png" width="120" alt=""></div></div>
+          <div class="col"><div class="btn btn-lg btn-dark p-0 rounded-circle"><img class="avocado" src="img/avocado.png" width="120" alt=""></div></div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+
+      <div class="jumbotron bg-white mx-auto" style="display:none">
+        <h1 class="display-4 text-center text-bold text-success">GAME OVER!</h1>
+        <h3 class="lead">YOUR SCORE: <span id="final_score"></span></p>
+        <hr class="my-4">
+        <p class="lead">
+          <a class="btn btn-outline-success btn-lg" href="" >PLAY AGAIN</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
